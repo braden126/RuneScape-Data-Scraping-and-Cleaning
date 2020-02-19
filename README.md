@@ -7,4 +7,4 @@ This project uses the Rvest R package to scrape data from https://oldschool.rune
 
 •	webscrapescript.R - standalone code to scrape/clean the data and store it in .CSV file
 
-•	AutomateScrape.R - code using the taskscheduleR package to scrape and update .CSV file at scheduled times
+•	AutomateScrape.R - code using the taskscheduleR package to run the webscrapescript.R script at scheduled times and add the data to a .CSV file
